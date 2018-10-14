@@ -1,0 +1,97 @@
+// Использовать только переменные, примеси, вложенность и амперсанды
+
+// Variables
+
+@white : white;
+@margin_l: 206px;
+@font_open_sans: 'Open Sans', sans-serif;
+@font_merriweather: 'Merriweather', serif;
+@font_size_link: 13px;
+// Mixins
+
+//Implementation
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.wrap {
+  background: url("../images/desert.jpg") no-repeat #3a545f;
+  background-size: cover;
+  height: 890px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 102px;
+  border-bottom: 1px solid rgba(99, 99, 99, 0.15);
+
+  &__logo {
+    margin-left: @margin_l;
+    margin-top: 5px;
+  }
+}
+
+.logo {
+
+  &__img{
+    margin-right: 5px;
+  }
+
+  &__text{
+    vertical-align: top;
+    margin-top: 3px;
+  }
+}
+
+.header__menu{
+  margin: 0 0 0 485px;
+  padding: 0;
+}
+.menu {
+  list-style: none;
+  display: flex;
+
+  &__item{
+    margin-right: 50px;
+  }
+
+  &__link{
+    color: @white;
+    font-size: @font_size_link;
+    font-family: @font_open_sans;
+
+  }
+}
+
+.search-form{
+  border-radius: 50px;
+  background-color: white;
+  height: 25px;
+  width: 195px;
+  padding: 10px 0px 10px 20px;
+
+  &__input{
+    border: none;
+    margin-left: 10px;
+    width: 150px;
+    font-family: @font_open_sans;
+    font-size: 12px;
+    color: #626262;
+
+
+  }
+
+  &__btn{
+    border: none;
+    background: url("../images/fa-search.png") bottom center no-repeat;
+    height: 20px;
+    width: 20px;
+  }
+}

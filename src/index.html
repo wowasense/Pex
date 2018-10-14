@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:300i,400|Open+Sans:400,600" rel="stylesheet">
 </head>
 <body>
   <!--
@@ -18,24 +19,28 @@
 
   Для стилизации нескольких блоков одновременно использовать миксы:
   block1 text
-  block2 text 
+  block2 text
  -->
-  <header class="header">
-    <div class="logo header__logo">
-      <img class="logo__img" src="" alt="pex logo">
-      <span class="logo__text">Photoshop Website template</span>
-    </div>
-    <ul class="menu header__menu">
-      <li class="menu__item"><a href="#" class="menu__link"></a></li>
-      <li class="menu__item"><a href="#" class="menu__link"></a></li>
-      <li class="menu__item"><a href="#" class="menu__link"></a></li>
-      <li class="menu__item"><a href="#" class="menu__link"></a></li>
-      <li class="menu__item"><a href="#" class="menu__link"></a></li>
-    </ul>
-    <form action="" class="search-form header__search-form">
-      <input type="text" class="search-form__input">
-      <button class="search-form__btn" type="submit"></button>
-    </form>
-  </header>
+  <div class="wrap">
+    <header class="header">
+      <div class="logo header__logo">
+        <img class="logo__img" src="images/pex.png" alt="pex logo">
+        <img class="logo__text" src="images/logo_text.png" alt="logo text">
+      </div>
+      <nav>
+        <ul class="menu header__menu">
+          <li class="menu__item"><a href="#" class="menu__link">About</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">How It Works</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">Services</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">FAQ</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
+        </ul>
+      </nav>
+      <form action="" class="search-form header__search-form">
+        <input type="text" placeholder="Search Website" class="search-form__input">
+        <button class="search-form__btn" type="submit"></button>
+      </form>
+    </header>
+  </div>
 </body>
 </html>
