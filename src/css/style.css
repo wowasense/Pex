@@ -3,18 +3,29 @@ body {
 }
 a {
   text-decoration: none;
+  color: white;
 }
 .wrap {
+  position: relative;
+  height: 891px;
+  padding-left: 209px;
+  padding-right: 35px;
   background: url("../images/desert.jpg") no-repeat #3a545f;
   background-size: cover;
-  height: 890px;
+  border-bottom: 1px solid #455975;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+.wrap__title-block {
+  position: absolute;
+  top: 362px;
+  padding-left: 11px;
+  width: 505px;
 }
 .header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 209px;
-  padding-right: 35px;
   height: 102px;
   border-bottom: 1px solid rgba(99, 99, 99, 0.15);
 }
@@ -60,9 +71,7 @@ a {
   background-color: #fff;
 }
 .menu__link {
-  color: white;
   font-size: 13px;
-  font-family: 'Open Sans', sans-serif;
 }
 .search-form {
   border-radius: 50px;
@@ -72,7 +81,6 @@ a {
   border: none;
   margin-left: 10px;
   width: 159px;
-  font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   color: #626262;
 }
@@ -81,4 +89,50 @@ a {
   background: url("../images/fa-search.png") bottom center no-repeat;
   height: 20px;
   width: 20px;
+}
+.title-block {
+  text-align: right;
+}
+.title-block__title {
+  margin-bottom: 45px;
+  font-size: 50px;
+  line-height: 70px;
+}
+.title-block__btn {
+  margin-right: -7px;
+  display: inline-block;
+  margin-bottom: 15px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 18px 62px;
+  background-color: #8824cd;
+  color: white;
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.4), 0 1px 0 0 rgba(0, 0, 0, 0.2);
+}
+.title-block__text {
+  margin-right: 19px;
+  font-size: 12px;
+}
+.features-page {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 395px 395px;
+  grid-template-rows: auto auto;
+  grid-column-gap: 30px;
+  grid-row-gap: 60px;
+  padding: 75px 390px 140px 390px;
+  background-color: #2e3b4e;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: white;
+}
+.feature-block__title {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.feature-block__text {
+  font-size: 15px;
+  line-height: 26px;
 }
