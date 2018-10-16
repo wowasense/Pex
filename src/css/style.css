@@ -5,7 +5,7 @@ a {
   text-decoration: none;
   color: white;
 }
-.wrap {
+.wrap-header {
   position: relative;
   height: 891px;
   padding-left: 209px;
@@ -16,7 +16,7 @@ a {
   font-family: 'Open Sans', sans-serif;
   color: white;
 }
-.wrap__title-block {
+.wrap-header__title-block {
   position: absolute;
   top: 362px;
   padding-left: 11px;
@@ -110,7 +110,7 @@ a {
   color: white;
   box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.4), 0 1px 0 0 rgba(0, 0, 0, 0.2);
 }
-.title-block__text {
+.title-block__text-under-btn {
   margin-right: 19px;
   font-size: 12px;
 }
@@ -137,9 +137,6 @@ a {
   line-height: 26px;
 }
 .contrast-page {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 145px 0 195px 0;
   position: relative;
   background: url("../images/contrast_wood.jpg") no-repeat center center #e7526b;
@@ -147,6 +144,10 @@ a {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   color: white;
+}
+.contrast-block {
+  margin: 0 auto;
+  width: 520px;
 }
 .contrast-block:before {
   content: "";
@@ -199,4 +200,48 @@ a {
   margin-bottom: 24px;
   font-size: 19px;
   line-height: 31px;
+}
+.wrap-experience {
+  padding-top: 91px;
+  background: url("../images/mountains.jpg") center center no-repeat #404040;
+  background-size: cover;
+}
+.experience-page {
+  padding: 83px 0 115px 0;
+  background-color: rgba(82, 26, 102, 0.8);
+}
+.experience-page__experience-block {
+  margin: 0 auto;
+  width: 750px;
+}
+.experience-block {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+.experience-block__title {
+  margin-bottom: 19px;
+  font-size: 40px;
+  font-weight: 200;
+  letter-spacing: -1px;
+}
+.experience-block__text_l2 {
+  margin-bottom: 27px;
+  font-size: 20px;
+  line-height: 33px;
+  color: #a87bb7;
+}
+.experience-block__btn {
+  margin-bottom: 15px;
+  display: inline-block;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 18px 62px;
+  background-color: #8824cd;
+  color: white;
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.4), 0 1px 0 0 rgba(0, 0, 0, 0.2);
+}
+.experience-block__text-under-btn {
+  font-size: 12px;
 }
