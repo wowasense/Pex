@@ -87,18 +87,15 @@ a {
   align-items: center;
   height: 102px;
   border-bottom: 1px solid rgba(99, 99, 99, 0.15);
-
   &__logo {
     margin-top: 5px;
     flex-grow: 1;
   }
-
   &__menu{
     display: flex;
     margin: 0;
     padding: 0;
   }
-
   &__search-form{
     height: 25px;
     width: 205px;
@@ -110,7 +107,6 @@ a {
   &__img{
     margin-right: 5px;
   }
-
   &__text{
     vertical-align: top;
     margin-top: 3px;
@@ -119,15 +115,12 @@ a {
 
 .menu {
   list-style: none;
-
   &__item{
     position: relative;
     margin-right: 50px;
-
     &:last-child{
       margin-right: 30px;
     }
-
     &:hover:after{
       content: '';
       position: absolute;
@@ -137,7 +130,6 @@ a {
       height: 3px;
       color: @white;
       background-color: #fff;
-
     }
   }
 
@@ -149,16 +141,13 @@ a {
 .search-form{
   border-radius: 50px;
   background-color: white;
-
   &__input{
     border: none;
     margin-left: 10px;
     width: 159px;
     font-size: 12px;
     color: #626262;
-
   }
-
   &__btn{
     border: none;
     background: url("../images/fa-search.png") bottom center no-repeat;
@@ -174,16 +163,13 @@ a {
     font-size: 50px;
     line-height: 70px;
   }
-
   &__btn{
     margin-right: -7px;
     margin-bottom: 15px;
     .btn;
     .btn_size(m);
     .btn_theme(violet);
-
   }
-
   &__text-under-btn{
     margin-right: 19px;
     font-size: 12px;
@@ -258,6 +244,7 @@ a {
 .description1-page{
   display: flex;
   &__img{
+    background: #ebebeb;
   }
 }
 
@@ -330,7 +317,6 @@ a {
     padding: 360px 0 90px 210px;
     font-family: @font_open_sans;
     color: @white;
-
   }
 }
 
@@ -344,7 +330,6 @@ a {
     border-radius: 50px;
     font-size: 13px;
     font-weight: 600;
-
   }
   &__title{
     margin-bottom: 20px;
@@ -364,6 +349,70 @@ a {
     margin-right: 15px;
   }
   &__bio{
+  }
+}
 
+.description2-page{
+  display: flex;
+  flex-direction: row-reverse;
+  &__img{
+    background: #ebebeb;
+  }
+}
+
+.description2-block{
+  margin: 0 auto;
+  padding: 107px 60px 130px 210px;
+  width: 660px;
+  color: #3a4d60;
+  font-family: @font_open_sans;
+  .text_size_m;
+  &__title{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 2px;
+  }
+  &__text{
+    &_l{
+      margin-bottom: 24px;
+      .text_size_l;
+    }
+  }
+}
+
+.contact-page{
+  background: #e7526b;
+  overflow-x: hidden;
+  &__contact-block{
+    margin: 0 auto;
+    padding: 65px 990px 225px 210px;
+    width: 395px;
+    font-family: @font_open_sans;
+    color: @white;
+    .text_size_m;
+  }
+}
+
+.contact-block{
+  &__title{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  &__text{
+    margin-bottom: 25px;
+  }
+  &__email{
+    text-decoration: underline;
+  }
+}
+
+.footer{
+  padding: 40px 0 310px 210px;
+  background: #2e3b4e;
+  font-family: @font_open_sans;
+  color: @white;
+  &__text{
+    font-size: @font_size_text_s;
   }
 }
