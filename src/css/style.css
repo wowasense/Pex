@@ -10,7 +10,7 @@ a {
   height: 891px;
   padding-left: 209px;
   padding-right: 35px;
-  background: url("../images/desert.jpg") no-repeat #3a545f;
+  background: url("../images/desert.jpg") no-repeat center center #3a545f;
   background-size: cover;
   border-bottom: 1px solid #455975;
   font-family: 'Open Sans', sans-serif;
@@ -100,8 +100,8 @@ a {
 }
 .title-block__btn {
   margin-right: -7px;
-  display: inline-block;
   margin-bottom: 15px;
+  display: inline-block;
   border-radius: 50px;
   font-size: 18px;
   font-weight: bold;
@@ -121,7 +121,7 @@ a {
   grid-template-rows: auto auto;
   grid-column-gap: 30px;
   grid-row-gap: 60px;
-  padding: 75px 390px 140px 390px;
+  padding: 75px 0px 140px 0px;
   background-color: #2e3b4e;
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
@@ -135,4 +135,46 @@ a {
 .feature-block__text {
   font-size: 15px;
   line-height: 26px;
+}
+.contrast-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 145px 0 195px 0;
+  position: relative;
+  background: url("../images/contrast_wood.jpg") no-repeat center center #e7526b;
+  background-size: cover;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+.contrast-block:before {
+  content: "";
+  position: absolute;
+  top: -37px;
+  left: 50%;
+  margin-left: -70px;
+  width: 141px;
+  height: 73px;
+  background-image: url("../images/contrast_shape.svg");
+}
+.contrast-block__title {
+  margin-bottom: 10px;
+  font-size: 35px;
+  font-weight: 200;
+}
+.contrast-block__text {
+  width: 500px;
+  font-size: 15px;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+.contrast-block__btn {
+  display: inline-block;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 18px 90px;
+  background-color: white;
+  color: #d54c63;
 }

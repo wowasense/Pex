@@ -24,7 +24,6 @@
 
 .btn(){
   display: inline-block;
-  margin-bottom: 15px;
   border-radius: 50px;
   font-size: 18px;
   font-weight: bold;
@@ -33,7 +32,7 @@
   padding: 18px 62px;
 }
 .btn_size(l){
-  padding: 20px 90px;
+  padding: 18px 90px;
 }
 .btn_theme(white){
   background-color: white;
@@ -62,7 +61,7 @@ a {
   height: 891px;
   padding-left: @padding_l_container;
   padding-right: @padding_r_container;
-  background: url("../images/desert.jpg") no-repeat #3a545f;
+  background: url("../images/desert.jpg") no-repeat center center #3a545f;
   background-size: cover;
   border-bottom: 1px solid #455975;
   font-family: @font_open_sans;
@@ -173,6 +172,7 @@ a {
 
   &__btn{
     margin-right: -7px;
+    margin-bottom: 15px;
     .btn;
     .btn_size(m);
     .btn_theme(violet);
@@ -192,7 +192,7 @@ a {
   grid-template-rows: auto auto;
   grid-column-gap: 30px;
   grid-row-gap: 60px;
-  padding: 75px 390px 140px 390px;
+  padding: 75px 0px 140px 0px;
   background-color: #2e3b4e;
   font-family: @font_open_sans;
   font-size: @font_size_text_m;
@@ -207,5 +207,46 @@ a {
   }
   &__text{
     .text_size_m;
+  }
+}
+
+.contrast-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 145px 0 195px 0;
+  position: relative;
+  background: url("../images/contrast_wood.jpg") no-repeat center center #e7526b;
+  background-size: cover;
+  text-align: center;
+  font-family: @font_open_sans;
+  color: @white;
+}
+
+.contrast-block{
+  &:before{
+    content: "";
+    position: absolute;
+    top: -37px;
+    left: 50%;
+    margin-left: -70px;
+    width: 141px;
+    height: 73px;
+    background-image: url("../images/contrast_shape.svg");
+  }
+  &__title{
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-weight: 200;
+  }
+  &__text{
+    width: 500px;
+    .text_size_m;
+    margin-bottom: 30px;
+  }
+  &__btn{
+    .btn;
+    .btn_size(l);
+    .btn_theme(white);
   }
 }
