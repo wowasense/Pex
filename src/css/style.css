@@ -178,3 +178,25 @@ a {
   background-color: white;
   color: #d54c63;
 }
+.description1-page {
+  display: flex;
+}
+.description1-block {
+  margin: 0 auto;
+  padding: 87px 130px 130px 23px;
+  width: 660px;
+  color: #3a4d60;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 26px;
+}
+.description1-block__title {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.description1-block__text_l {
+  margin-bottom: 24px;
+  font-size: 19px;
+  line-height: 31px;
+}
