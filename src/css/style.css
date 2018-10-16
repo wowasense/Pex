@@ -245,3 +245,37 @@ a {
 .experience-block__text-under-btn {
   font-size: 12px;
 }
+.photography-page {
+  background: url("../images/food.jpg") center center no-repeat #232323;
+  background-size: cover;
+}
+.photography-page__photography-block {
+  width: 520px;
+  padding: 360px 0 90px 210px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+.photography-block__category {
+  width: 80px;
+  height: 20px;
+  padding: 5px 25px;
+  margin-bottom: 20px;
+  border: 2px solid white;
+  border-radius: 50px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.photography-block__title {
+  margin-bottom: 20px;
+  font-size: 40px;
+  line-height: 50px;
+}
+.photography-block__author-block {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 600;
+}
+.author-block__avatar {
+  margin-right: 15px;
+}
