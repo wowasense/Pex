@@ -1,0 +1,5 @@
+node_modules/
+.gitignore
+*.json
+gulpfile.js
+.DS_Store
