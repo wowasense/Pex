@@ -1,3 +1,6 @@
+html {
+  color: white;
+}
 a {
   text-decoration: none;
   color: white;
@@ -28,7 +31,6 @@ h2 {
   background-size: cover;
   border-bottom: 1px solid #455975;
   font-family: 'Open Sans', sans-serif;
-  color: white;
 }
 .wrap-header:before {
   content: "";
@@ -88,7 +90,6 @@ h2 {
   left: 5%;
   width: 90%;
   height: 3px;
-  color: white;
   background-color: #fff;
 }
 .menu__link {
@@ -128,7 +129,6 @@ h2 {
   font-weight: bold;
   padding: 18px 62px;
   background-color: #8824cd;
-  color: white;
   box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.4), 0 1px 0 0 rgba(0, 0, 0, 0.2);
 }
 .title-block__text-under-btn {
@@ -146,7 +146,6 @@ h2 {
   background-color: #2e3b4e;
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
-  color: white;
 }
 .feature-block__title {
   font-weight: bold;
@@ -164,7 +163,6 @@ h2 {
   background-size: cover;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-  color: white;
 }
 .contrast-block {
   margin: 0 auto;
@@ -245,7 +243,6 @@ h2 {
 .experience-block {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-  color: white;
 }
 .experience-block__title {
   margin-bottom: 19px;
@@ -267,7 +264,6 @@ h2 {
   font-weight: bold;
   padding: 18px 62px;
   background-color: #8824cd;
-  color: white;
   box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.4), 0 1px 0 0 rgba(0, 0, 0, 0.2);
 }
 .experience-block__text-under-btn {
@@ -281,7 +277,6 @@ h2 {
   width: 520px;
   padding: 360px 0 90px 210px;
   font-family: 'Open Sans', sans-serif;
-  color: white;
 }
 .photography-block__category {
   width: 80px;
@@ -346,7 +341,6 @@ h2 {
   padding: 65px 990px 225px 210px;
   width: 395px;
   font-family: 'Open Sans', sans-serif;
-  color: white;
   font-size: 15px;
   line-height: 26px;
 }
@@ -365,7 +359,6 @@ h2 {
   padding: 40px 0 310px 210px;
   background: #2e3b4e;
   font-family: 'Open Sans', sans-serif;
-  color: white;
 }
 .footer__text {
   font-size: 12px;
